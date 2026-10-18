@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>TikTok callback</title></head>
+<body style="font-family:sans-serif;padding:40px">
+  <h2>Codice di autorizzazione TikTok</h2>
+  <p>Copia questo valore e invialo a Claude:</p>
+  <pre id="out" style="background:#eee;padding:16px;word-break:break-all"></pre>
+  <script>
+    document.getElementById('out').textContent = window.location.search || '(nessun parametro trovato)';
+  </script>
+</body>
+</html>
